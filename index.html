@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="/GO_Healthy/style/master.css">
+<title>Go Healthy</title>
+<meta name="description" content="Go Healthy is a website dedicated to helping you choose the best healthy meals based on your personal data, Go Healthy provides precise and personalized recommendations. By analyzing your age, weight, height, and gender, the site suggests nutritious meal options tailored to your body's requirements and enhances your well-being. "/>
+<Script src="/GO_Healthy/script1/scrp.js" defer></Script>
+</head>
+<body>
+    <div class="Welcome_Message">
+    <h1>Welcome To Go Healthy</h1>
+    </div>
+    <div class="motivation_bar">
+        <p>Your Journey To Healthier Meals Starts Here</p>
+    </div>
+  <div class="form_div">
+    <!-- <hr> -->
+   <form class="form">
+    <div class="gender_selection">
+    <label for="gender">Select Your Gender </label>
+    <select id="gender" name="gender" required autofocus>
+        <option>---Please Select a Gender---</option>
+        <option>male</option>
+        <option>female</option>
+    </select>
+    <!-- <hr> -->
+    </div>
+    <div class="age">
+        <label for="age">Age :</label>
+        <input id="age" 
+        type="number" 
+        min="1" 
+        step="0.1" 
+        required 
+        placeholder="Age">
+    </div>
+    <!-- <hr> -->
+    <div class="height">
+        <label for="height">Height (cm) :</label>
+        <input 
+        id="height"
+        type="number" 
+        min="1" 
+        step="0.1" 
+        required 
+        placeholder="Height (cm)">
+    </div>
+    <!-- <hr> -->
+    <div class="weight">
+        <label for="weight">Weight (Kg) :</label>
+        <input id="weight"
+         type="number" 
+         min="1" 
+         step="0.1" required
+        placeholder="Weight (Kg)">
+    </div>
+    <div class="submit">
+        <input type="submit">
+    </div>
+    <div class="reset">
+        <input id="reset" type="reset">
+    </div>
+</form>
+</div>
+</body>
+</html>
